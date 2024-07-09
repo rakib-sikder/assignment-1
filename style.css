@@ -44,6 +44,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 75px;
 }
 .banner > h1 {
     margin: 32px 0 24px 0;
@@ -74,4 +75,69 @@
     background: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
     transition: 0.6s;
+}
+.whyweb{
+    padding: 0 150px;
+    height: 1395px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.whyweb > h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+.whyweb > p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin: 24px 0 48px 0;
+}
+.docoding{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 80px;
+    border-radius: 16px;
+    background: linear-gradient(60.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin: 48px;
+}
+.websystem{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 80px;
+    border-radius: 16px;
+    background: linear-gradient(240.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.txt > h4 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+}
+.txt > p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin: 16px 0 32px 0;
+}
+.txt > button {
+    padding: 12px 20px 12px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
 }
