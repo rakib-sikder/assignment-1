@@ -61,7 +61,7 @@
     opacity: 0.7;
     margin-bottom: 32px;
 }
-.banner > button{
+.banner > a > button{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 20px;
@@ -71,7 +71,7 @@
     border-radius: 8px;
     
 }
-.banner > button:hover{
+.banner > a > button:hover{
     background: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
     transition: 0.6s;
@@ -341,4 +341,75 @@
     border: none;
     background-color: rgba(255, 255, 255, 0);
     text-decoration: underline;
+}
+.support{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./img/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 220px;
+    margin: 0 250px 80px 250px;
+    padding: 68px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+
+}
+.support > h2 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+}
+.support > p{
+    margin: 16px 0 24px 0;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.inputpart > input{
+    padding: 19px 20px 19px 20px;
+    width: 548px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 17px;
+    border: none;
+    font-weight: 400;
+    border-radius: 8px;
+    background-color: aliceblue;
+
+}
+.inputpart > button{
+    padding: 17px 20px 17px 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+
+}
+.footerpart{
+    margin: 0 250px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerpart > p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+.icons > a {
+    margin-left: 10px;
+}
+#footer{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
 }
