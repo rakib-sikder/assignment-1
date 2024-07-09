@@ -78,7 +78,7 @@
 }
 .whyweb{
     padding: 0 150px;
-    height: 1395px;
+    height: 1300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -140,4 +140,31 @@
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
+}
+.Inspiration{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.Inspiration > iframe{
+    border-radius: 16px;   
+    margin: 32px;
+}
+.Inspiration > h4 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin: 88px 0 24px 0;
+}
+.Inspiration > p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+    opacity: 0.7s;
+
 }
