@@ -147,6 +147,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    margin-bottom: 150px;
 }
 .Inspiration > iframe{
     border-radius: 16px;   
@@ -165,6 +166,120 @@
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 48px;
-    opacity: 0.7s;
-
+    opacity: 0.7;
+}
+.currenttarget{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.targettxt > h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+.targettxt > p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin: 24px 0 48px 0;
+}
+.target{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 110px;
+    
+}
+.terget1{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.terget1 > h5{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 24px 0 8px 0;
+}
+.terget1 > p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.terget1 > button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    text-decoration: underline;
+}
+.terget2{
+    padding: 40px;
+    margin: 0 24px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.terget2 > h5{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 24px 0 8px 0;
+}
+.terget2 > p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.terget2 > button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    text-decoration: underline;
+}
+.terget3{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.terget3 > h5{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 24px 0 8px 0;
+}
+.terget3 > p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.terget3 > button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    text-decoration: underline;
 }
