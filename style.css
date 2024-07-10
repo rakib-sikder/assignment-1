@@ -132,7 +132,7 @@
     opacity: 0.7;
     margin: 16px 0 32px 0;
 }
-.txt > button {
+.txt > a > button {
     padding: 12px 20px 12px 20px;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
@@ -140,6 +140,12 @@
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
+}
+.txt > a > button:hover{
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    transition: 0.6s;
+    opacity: 1;
 }
 .Inspiration{
     display: flex;
@@ -217,7 +223,7 @@
     font-weight: 400;
     margin-bottom: 24px;
 }
-.terget1 > button{
+.terget1 > a > button{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -246,7 +252,7 @@
     font-weight: 400;
     margin-bottom: 24px;
 }
-.terget2 > button{
+.terget2 > a > button{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -274,7 +280,7 @@
     font-weight: 400;
     margin-bottom: 24px;
 }
-.terget3 > button{
+.terget3 > a > button{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -383,7 +389,7 @@
     background-color: aliceblue;
 
 }
-.inputpart > button{
+.inputpart > a > button{
     padding: 17px 20px 17px 20px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -392,6 +398,12 @@
     border: none;
     border-radius: 8px;
 
+}
+.inputpart > a > button:hover{
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    transition: 0.6s;
+    border: 1px solid white;
 }
 .footerpart{
     margin: 0 250px;
